@@ -1,9 +1,9 @@
 baseurl = "/"
-title = "Techbag"
+title = "Bhavesh Jadav's Blog"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "Mainroad"
-publishDir = "docs"
+publishDir = "public"
 # disqusShortname = "" # Enable comments by entering your Disqus shortname
 # googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
