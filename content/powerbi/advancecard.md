@@ -11,6 +11,13 @@ tags:
 
 Advance Card is a Power BI custom visual with more features than default card visual present in Power BI. It is built to overcome some of the limitation of the default card visual in Power BI. Below you will find some of the features of Advance Card.
 
+**Align content**  
+You can align content of card to either left, right or center. You can also specify spacing from left or right border or stroke when the content is either left or right aligned.
+<figure>
+  <img class = "center" src = "/gifs/align.gif" alt = "Prefix and Postfix Demo"></img>
+  <figcaption class = "center" style = "margin-top: 5px; text-align: center;">Align content to left, right or cetner</figcaption>
+</figure>
+
 **Prefix and Postfix Labels**  
 You can add prefix and postfix label along with category label. Prexfis and postfix labels are useful to append text to begining and end of datalabel respectively. This is esepcially useful in live connection. You can achieve similar result with DAX and default card visual but for that you will have to write multiple DAX query for multiple card and DAX does not support formatting. With prefix and postfix label you can also customize size, color and other properties of the text which is not possible in DAX as of now.
 <figure>
@@ -75,7 +82,7 @@ This feature is is useful to make card more visually attractive. You can change 
     </tr>
     <tr>
         <td style = "text-align: center;">
-            Category Label Formatting
+            Category label formatting
         </td>
         <td style = "text-align: center;">
             <font face="Segoe UI Emoji,sans-serif" size="4" color="#191E3F">
@@ -85,6 +92,21 @@ This feature is is useful to make card more visually attractive. You can change 
         <td style = "text-align: center;">
             <font face="Segoe UI Emoji,sans-serif" size="4" color="#191E3F">
                 <span style="font-size:14pt;">✔</span>
+            </font>
+        </td>
+    </tr>
+    <tr>
+        <td style = "text-align: center;">
+            Content alignment
+        </td>
+        <td style = "text-align: center;">
+            <font face="Segoe UI Emoji,sans-serif" size="4" color="#191E3F">
+                <span style="font-size:14pt;">✔</span>
+            </font>
+        </td>
+        <td style = "text-align: center;">
+            <font face="Segoe UI Emoji,sans-serif" size="4" color="#191E3F">
+                <span style="font-size:14pt;">❌</span>
             </font>
         </td>
     </tr>
@@ -105,7 +127,7 @@ This feature is is useful to make card more visually attractive. You can change 
     </tr>
     <tr>
         <td style = "text-align: center;">
-            Conditional Formatting
+            Conditional formatting
         </td>
         <td style = "text-align: center;">
             <font face="Segoe UI Emoji,sans-serif" size="4" color="#191E3F">
@@ -166,7 +188,12 @@ This feature is is useful to make card more visually attractive. You can change 
   </tbody>
 </table>
 
-**Resources**  
-Download Advance Card custom visual and sample report [from github](https://github.com/bhavesh-jadav/Advance-Card/releases)  
+**Download Links And Other Resources**  
+
+_**Note**: Version on github may differ from Appsource version. In power BI only appsource version will work even after you import latest version from github which is not available on Appsource yet. It may take weeks to update visual on Appsource once it is updated on github._  
+
+[![Download Advance Card visual from Appsource](https://docs.microsoft.com/en-us/office/dev/store/images/appsource-badge-medium.png "Download from Appsource")](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381651?tab=Overview "Download from Appsource")  
+
+Visit [GitHub](https://github.com/bhavesh-jadav/Advance-Card/issues) to submit suggestion or bugs.  
 Detailed documentation available at [Github Wiki](https://github.com/bhavesh-jadav/Advance-Card/wiki)  
 Privacy Policy available at [Power BI Custom Visual Privay Policy]({{< ref "powerbi-privacy-policy.md" >}})  
