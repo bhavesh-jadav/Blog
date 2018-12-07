@@ -4,7 +4,7 @@ languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "Mainroad"
 publishDir = "public"
-# disqusShortname = "" # Enable comments by entering your Disqus shortname
+disqusShortname = "bhaveshjadav" # Enable comments by entering your Disqus shortname
 # googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author] # Used in authorbox
