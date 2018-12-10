@@ -1,6 +1,6 @@
 ---
 title: "Advance Card - A Power BI Custom Visual"
-date: 2018-06-03T15:01:15+05:30
+date: 2018-06-03
 draft: false
 categories: 
     - "Power BI"

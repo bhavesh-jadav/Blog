@@ -17,7 +17,7 @@ disqusShortname = "bhaveshjadav" # Enable comments by entering your Disqus short
     description = " John Doe's Personal blog about everything" # Description of your site. Used in meta description
     opengraph = true # Enable OpenGraph if true
     twitter_cards = true # Enable Twitter Cards if true
-    readmore = false # Show "Read more" button in list if true
+    readmore = true # Show "Read more" button in list if true
     leftsidebar = false # Move sidebar to the left side if true
     authorbox = false # Show authorbox at bottom of pages if true
     post_navigation = true # Show post navigation at bottom of pages if true
@@ -27,7 +27,7 @@ disqusShortname = "bhaveshjadav" # Enable comments by entering your Disqus short
 
 [Params.widgets]
     search = false # Enable "Search" widget
-    recent_articles = false # Enable "Recent articles" widget
+    recent_articles = true # Enable "Recent articles" widget
     recent_articles_num = 5 # Set the number of articles in the "Recent articles" widget
     categories = true # Enable "Categories" widget
     tags = true # Enable "Tags" widget
