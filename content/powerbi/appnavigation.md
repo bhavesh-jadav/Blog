@@ -12,7 +12,7 @@ tags:
 Power BI Apps are great way to share the content such as dashboards and reports to large Audience. But the way to categorize your content in App is very limited. Once you setup your App without specifying any landing page, you are greeted with following screen.
 
 <figure>
-  <img class = "center" src = "/images/appnavigation/default_app_navigation.png" alt = "Default App navigation" style="height: 250px; width:600px"></img>
+  <img class = "center" src = "/images/appnavigation/default_App_navigation.png" alt = "Default App navigation" style="height: 250px; width:600px"></img>
   <figcaption class = "center" style = "margin-top: 5px; text-align: center;">Default App navigation in Power BI</figcaption>
 </figure>
 
