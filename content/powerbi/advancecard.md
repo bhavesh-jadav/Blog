@@ -9,6 +9,8 @@ tags:
     - "Custom Visual"
 ---
 
+**Development of this custom visual has been stopped. Please find an alternative custom visual if this custom visual does not fulfil your requirement.**  
+
 Advance Card is a Power BI custom visual with more features than default card visual present in Power BI. It is built to overcome some of the limitation of the default card visual in Power BI. Below you will find some of the features of Advance Card.
 
 **Align content**  

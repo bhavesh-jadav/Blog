@@ -1,25 +1,28 @@
-{{ partial "header.html" . }}
-
-<main class="main content">
+{{ define "main" }}
+<main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
 			<h1 class="post__title">{{ .Title }}</h1>
-			{{- if or (not .Date.IsZero) .Params.categories }}<div class="post__meta meta">{{ partial "post_meta.html" . }}</div>{{ end }}
-		</header>
-		<div class="post__content clearfix">
-			{{- if .Params.thumbnail }}
-			<figure class="post__thumbnail">
-				<img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}">
-			</figure>
+			{{- with .Params.lead }}
+			<p class="post__lead">{{ . }}</p>
 			{{- end }}
+			{{ with partial "post_meta.html" . -}}
+			<div class="post__meta meta">{{ . }}</div>
+			{{- end }}
+		</header>
+		{{ partial "post_thumbnail.html" (dict "class" "post" "page" .) }}
+		{{- partial "post_toc.html" . -}}
+		<div class="content post__content clearfix">
 			{{ .Content }}
 		</div>
-		{{ partial "post_tags.html" . }}
+		{{- if .Params.tags }}
+		<footer class="post__footer">
+			{{ partial "post_tags.html" . }}
+		</footer>
+		{{- end }}
 	</article>
-	{{ partial "authorbox.html" . }}
-	{{ partial "post_nav.html" . }}
-	{{ partial "comments.html" . }}
 </main>
-
-{{ partial "sidebar.html" . }}
-{{ partial "footer.html" . }}
+{{ partial "authorbox.html" . }}
+{{ partial "pager.html" . }}
+{{ partial "comments.html" . }}
+{{ end }}
